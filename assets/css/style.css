@@ -1,0 +1,49 @@
+body {
+    background-image: url(/assets/img/backgroundChat.png);
+    background-size: cover;
+    background-color: #3498db;
+    float: right;
+    background-repeat: no-repeat;
+}
+
+#chat-container {
+    background-image: url(/assets/img/wall-3430446_1280.jpg);
+    background-size: cover;
+    width: 410px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#chat-output {
+    background-color: #025284ce;
+    background-size: cover;
+    color: azure;
+    font: oblique bold 100% cursive;
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#user-input {
+    width: 395px;
+    padding: 5px;
+    font: oblique bold 90% cursive;
+    background-color: #3d95d1;
+    color: #011c2d;
+}
+
+#send-btn {
+    width: 410px;
+    height: 40px;
+    margin-top: 5px;
+    padding: 5px;
+    cursor: pointer;
+    font: oblique bold 100% cursive;
+    background-color: #004e7f;
+    color: aliceblue;
+
+}
